@@ -8,6 +8,6 @@
   }
 
   button {
-    @apply text-white border bg-cyan-200 border-cyan-200 hover:bg-transparent hover:text-cyan-200 rounded-md
+    @apply text-white border bg-cyan-600 border-cyan-600 hover:bg-transparent hover:text-cyan-600 rounded-md
   }
 }
