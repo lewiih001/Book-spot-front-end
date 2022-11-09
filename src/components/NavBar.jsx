@@ -33,7 +33,7 @@ const Navbar = () => {
         <li className='border-b-2 border-zinc-300 w-full'>Support</li>
         <li className='border-b-2 border-zinc-300 w-full'>Collection</li>
         <div className='flex flex-col my-4'>
-            <button className='bg-transparent text-indigo-600 px-8 py-3 mb-4'>Sign In</button>
+            <button className='bg-transparent text-cyan-600 px-8 py-3 mb-4'>Sign In</button>
             <button className='px-8 py-3'>Sign Up</button>
         </div>
       </ul>
