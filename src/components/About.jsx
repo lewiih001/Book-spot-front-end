@@ -3,9 +3,9 @@ import {AiOutlineArrowRight, AiOutlineUserAdd} from "react-icons/ai"
 import {GiPayMoney, GiShakingHands} from "react-icons/gi"
 import video1 from "../assets/video.mp4"
 
-const Support = () => {
+const About = () => {
   return (
-  <div name='support' className='w-full mt-24'>
+  <div className='w-full mt-24'>
       <div className='w-full h-[700px] bg-gray-500/90 absolute'>
         <video className='w-full h-full object-cover mix-blend-overlay' src={video1} autoPlay loop muted />
       </div>
@@ -54,4 +54,4 @@ const Support = () => {
   );
 };
 
-export default Support;
+export default About;
