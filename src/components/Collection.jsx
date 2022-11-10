@@ -7,15 +7,15 @@ const Collection = () => {
   const [images, setImages] = useState([])
 
   useEffect(() => {
-    fetch(`https://phase-tatu-backend.herokuapp/books.com`)
+    fetch(`http://localhost:3004/books`)
       .then((response) => response.json())
       .then((data) =>
-        {
-          setImages(data);
-        }
+        
+          setImages(data)
+        
       );
   }, []);
-
+  console.log(images)
   return (
     <div name="collection" className="bg-zinc-200">
       <div className="text-4xl text-center font-bold py-4">
