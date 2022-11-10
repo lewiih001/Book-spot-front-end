@@ -14,3 +14,17 @@ const fetchCart = () => {
     fetchProducts();
     fetchCart();
   }, []);
+
+  <button
+  name="Add to cart"
+  className="product__btn"
+  onClick={handleAddToCart}
+>
+  Quick add
+</button>
+
+const handleAddToCart = () => {
+    onAddToCart(product.id, 1);
+  }
+
+  
