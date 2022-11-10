@@ -9,3 +9,8 @@ const fetchCart = () => {
       console.log('There was an error fetching the cart', error);
     });
   }
+
+  useEffect(() => {
+    fetchProducts();
+    fetchCart();
+  }, []);
