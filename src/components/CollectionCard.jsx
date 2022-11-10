@@ -37,6 +37,7 @@ const CollectionCard = ({image}) => {
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#tag3</span>
       </div> */}
       </div>
+      <button></button>
     </div>
   ); 
 }
